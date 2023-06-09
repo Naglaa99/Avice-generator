@@ -9,10 +9,9 @@ dice.addEventListener("click",
 function generateAdvice(){
     fetch("https://api.adviceslip.com/advice")
     .then(response=>response.json())
-    .then((data)=>data.slip)
     .then((data)=>{
-      ad_id.textContent=data.id;
-      ad_text.textContent=data.advice ; 
+      ad_id.textContent=data.slip.id;
+      ad_text.textContent=data.slip.advice ; 
 
     }
     )
