@@ -32,7 +32,7 @@ Users should be able to:
   
 ### Links
 
-- Solution URL: [https://github.com/Naglaa99/Avice-generator](https://github.com/Naglaa99/Avice-generator)
-- Live Site URL: [https://naglaa99.github.io/Avice-generator/](https://naglaa99.github.io/Avice-generator/)
+- Solution URL: [https://github.com/Naglaa99/advice-generator](https://github.com/Naglaa99/advice-generator)
+- Live Site URL: [https://naglaa99.github.io/advice-generator/ ](https://naglaa99.github.io/advice-generator/) 
 
 
