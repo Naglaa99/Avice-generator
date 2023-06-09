@@ -1,70 +1,76 @@
 @import url("https://fonts.google.com/specimen/Manrope");
-body{
-    background-color:hsl(218, 23%, 16%);
-    color:#fff;
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: #fff;
     font-family: 'Manrope', sans-serif;
-    
+
 }
 
-.container{
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   min-height: 90vh;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
 }
-.card{
-    width:350px;
-    background-color:hsl(217, 19%, 24%);
+
+.card {
+    width: 350px;
+    background-color: hsl(217, 19%, 24%);
     border-radius: 10px;
-    padding:30px;
+    padding: 30px;
     position: relative;
 
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 1px 2px 3px 4px rgba(192, 191, 191, 0.592);
-    
+
 }
 
-#dice{
-   position: absolute;
-   bottom:-20px;
-   left: 50%;
-   transform: translateX(-50%);
-   padding: 10px;
-   background-color: hsl(150, 100%, 66%);
-   border-radius: 50% ; 
-   
+#dice {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+
 }
 
 #dice:hover {
     box-shadow: 0 0 40px hsl(150, 100%, 66%)
 }
 
-#pattern{
-   width:100%;
-   margin-bottom: 20px;
-   margin-top: 10px;
+#pattern {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
-#advice-id{
+
+#advice-id {
     text-align: center;
     color: hsl(150, 100%, 66%);
     margin-top: 0;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     font-size: 13px;
     font-weight: 500;
 }
-#advice-text{
+
+#advice-text {
     color: hsl(193, 38%, 86%);
     font-weight: 800;
     font-size: 18px;
     text-align: center;
 }
-.attribution {
-font-size: 14px; 
-text-align: center;
 
- }
-.attribution a { 
-    color: hsl(227, 55%, 53%); 
+.attribution {
+    font-size: 14px;
+    text-align: center;
+
 }
 
+.attribution a {
+    color: hsl(227, 55%, 53%);
+}

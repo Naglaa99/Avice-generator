@@ -1,12 +1,12 @@
-var ad_id=document.querySelector(".advice-id");
-var ad_text=document.querySelector("#advice-text q");
-var dice=document.getElementById("dice");
+const ad_id=document.querySelector(".advice-id");
+const ad_text=document.querySelector("#advice-text q");
+const dice=document.getElementById("dice");
 
-window.onload=Showadvice();
-dice.addEventListener("click",function(){
-    Showadvice();
-})
-function Showadvice(){
+window.onload=generateAdvice();
+dice.addEventListener("click",
+    generateAdvice
+)
+function generateAdvice(){
     fetch("https://api.adviceslip.com/advice")
     .then(response=>response.json())
     .then((data)=>data.slip)
