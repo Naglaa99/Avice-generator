@@ -14,9 +14,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 - 
-## Screenshot
 
-![](./images/screenshot.PNG)
 
 <h3>Technologies Used:</h3>
 <ol>
